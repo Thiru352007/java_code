@@ -1,3 +1,4 @@
+//check enter number is perfect or not
 import java.util.*;
 
 class Perfect {
@@ -8,7 +9,6 @@ class Perfect {
         System.out.print("Enter a number: ");
         n = sc.nextInt();
 
-        // Check for divisors up to n/2 (more efficient)
         for (i = 1; i <= n ; i++) {
             if (n % i == 0)
                 a = a + i;
